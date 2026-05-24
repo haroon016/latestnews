@@ -23,9 +23,9 @@ const Navbar = ({ onSearch, currentQuery = "" }) => {
 
           {/* Logo */}
           <div style={{ display: "flex", alignItems: "center", gap: "12px", flexShrink: 0 }}>
-            <div className="brand-logo">₿</div>
+            <div className="brand-logo">𝓗</div>
             <div>
-              <p className="brand-title">Latest Newss</p>
+              <p className="brand-title">Latest News</p>
               <p className="brand-sub">Live Feed by Haroon</p>
             </div>
           </div>
