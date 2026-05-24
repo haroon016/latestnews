@@ -61,9 +61,9 @@ const App = () => {
           {/* Status bar */}
           {!loading && !error && (
             <div>
-              <div className="feed-label">🔥 Live News Feed</div>
+              <div className="feed-label">🔥 Live News Feed by Haroon Bajwa</div>
               <p className="result-count">
-                {articles.length} articles for <span>"{searchQuery}"</span>
+                {articles.length} articles found for <span>"{searchQuery}"</span>
               </p>
             </div>
           )}

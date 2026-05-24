@@ -25,8 +25,8 @@ const Navbar = ({ onSearch, currentQuery = "" }) => {
           <div style={{ display: "flex", alignItems: "center", gap: "12px", flexShrink: 0 }}>
             <div className="brand-logo">₿</div>
             <div>
-              <p className="brand-title">CryptoNews</p>
-              <p className="brand-sub">Live Feed</p>
+              <p className="brand-title">Latest Newss</p>
+              <p className="brand-sub">Live Feed by Haroon</p>
             </div>
           </div>
 
@@ -50,7 +50,7 @@ const Navbar = ({ onSearch, currentQuery = "" }) => {
             </form>
 
             {/* Topic pills */}
-            <div className="pills-row">
+            <div className="pills-row" style={{ marginTop: "12px" }}>
               {topics.map((topic) => (
                 <button
                   key={topic}
